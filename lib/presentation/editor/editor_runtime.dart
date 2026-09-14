@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:opencode/domain/entities/code_token.dart';
 import 'package:opencode/domain/entities/editor_language.dart';

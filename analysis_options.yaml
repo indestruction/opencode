@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    directives_ordering: true
+    avoid_print: true
+    prefer_final_locals: true
+    sort_child_properties_last: true

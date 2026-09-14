@@ -1,0 +1,36 @@
+name: opencode
+description: Opencode — open-source mobile code editor and AI agent.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management / DI
+  flutter_riverpod: ^2.6.1
+
+  # Networking (AI providers, SSE / NDJSON streaming)
+  http: ^1.2.2
+
+  # Secure local storage for API keys
+  flutter_secure_storage: ^9.2.2
+
+  # Typography: Inter (UI) + JetBrains Mono (code)
+  google_fonts: ^6.2.1
+
+  # File system access (used from the next steps onwards)
+  path_provider: ^2.1.4
+  file_picker: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

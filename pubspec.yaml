@@ -23,10 +23,6 @@ dependencies:
   # Typography: Inter (UI) + JetBrains Mono (code)
   google_fonts: ^6.2.1
 
-  # File system access (used from the next steps onwards)
-  path_provider: ^2.1.4
-  file_picker: ^8.1.2
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
